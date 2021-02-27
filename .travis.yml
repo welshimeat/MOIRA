@@ -15,9 +15,9 @@ before_install:
   - chmod +x mvnw
 
 before_deploy:
-  - zip -r springboot-webservice ./*
+  - zip -r moira ./*
   - mkdir -p deploy
-  - mv springboot-webservice.zip deploy/springboot-webservice.zip
+  - mv moira.zip deploy/moira.zip
 
 deploy:
   - provider: s3
