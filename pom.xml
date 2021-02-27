@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>High5ive</groupId>
 	<artifactId>MOIRA</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2</version>
 	<name>MOIRA</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
