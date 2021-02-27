@@ -38,14 +38,17 @@ deploy:
     secret_access_key: $AWS_SECRET_KEY
 
     bucket: moira-springboot
-    key : MOIRA.zip
+    key : moira.zip
 
     bundle_type : zip
-    application : MOIRA
+    application : moira
 
     deplyment_group : moira-group
     region: ap-northeast-2
     wait-until-deployed : true
+
+    on:
+      branch: main
 
 # CI 실행 완료시 메일로 알람
 notifications:
